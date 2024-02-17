@@ -2,7 +2,7 @@
 //To find the occurances of a digit in a given number 
 import java.util.Scanner;
 
-public class occurance {
+public class Occurance {
     public static void main(String[] args) {
         // To create Scanner object to take input from the user
         Scanner in = new Scanner(System.in);
