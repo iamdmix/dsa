@@ -1,4 +1,4 @@
-//To find the sum of two numbers
+//To find the sum of two numbers that are taken from the user
 import java.util.Scanner;
 
 public class Sum {

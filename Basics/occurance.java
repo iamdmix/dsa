@@ -1,5 +1,5 @@
 
-//To find the occurances of a digit in a given number 
+//To find the occurances of a digit in a given number n, taken from the user
 import java.util.Scanner;
 
 public class Occurance {

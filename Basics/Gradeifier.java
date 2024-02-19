@@ -1,4 +1,4 @@
-//Grade+Identifier
+//Grade+Identifier, tells you your grade
 
 import java.util.Scanner;
 

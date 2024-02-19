@@ -1,4 +1,4 @@
-//To print the Fibonacci series for n terms
+//To print the Fibonacci series for n terms, where n is taken from the user
 import java.util.Scanner;
 
 public class Fibonacci {

@@ -1,4 +1,4 @@
-//To check if the given number is positive, negative or zero and whether it is odd or even.
+//To check if the given number is positive, negative or zero and also whether it is odd or even.
 import java.util.Scanner;
 
 public class Conditionals {

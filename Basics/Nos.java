@@ -1,4 +1,4 @@
-//Program to print all whole numbers from 0 to n
+//Program to print all whole numbers from 0 to n, where n is taken from the user
 import java.util.Scanner;
 
 public class Nos {

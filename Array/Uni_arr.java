@@ -1,3 +1,4 @@
+//To take an array input and then print the unique elements of that array
 import java.util.Scanner;
 
 public class Uni_arr {

@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- * First Program in Java!! Yaay!
+ * First Program in Java!! Yaay!!!
  */
 public class Hello {
 

@@ -1,4 +1,4 @@
-//To take an unsorted array and to return the rank of each element in it.
+//To take an unsorted array and to print the rank of each element in it.
 import java.util.Scanner;
 
 public class Rank_arr {
