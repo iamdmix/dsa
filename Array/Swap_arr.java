@@ -35,6 +35,7 @@ public class Swap_arr {
         in.close();
     }
 
+    //Function Definition
     static void swap(int[] a, int b, int c){
         int temp = a[b];
         a[b] = a[c];
