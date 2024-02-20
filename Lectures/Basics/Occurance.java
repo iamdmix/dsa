@@ -1,4 +1,3 @@
-
 //To find the occurances of a digit in a given number n, taken from the user
 import java.util.Scanner;
 
