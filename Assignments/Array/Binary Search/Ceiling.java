@@ -1,3 +1,4 @@
+//To find the Ceiling of a target in the given array
 import java.util.Scanner;
 
 public class Ceiling {
