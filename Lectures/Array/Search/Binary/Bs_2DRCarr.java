@@ -41,13 +41,12 @@ public class Bs_2DRCarr {
             if (a[r][c] == b) {
                 return new int[] { r, c };
             }
-            if(a[r][c] < b){
-                r ++;
-            }
-            else{
-                c --;
+            if (a[r][c] < b) {
+                r++;
+            } else {
+                c--;
             }
         }
-        return new int[] { -1, -1 };  //If element not found
+        return new int[] { -1, -1 }; // If element not found
     }
 }
