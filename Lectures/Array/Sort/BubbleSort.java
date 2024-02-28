@@ -1,4 +1,3 @@
-import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -26,7 +25,7 @@ public class BubbleSort {
         // To close Scanner object to prevent resource leak
         in.close();
     }
-    
+
     // Method to perform bubble sort and return the sorted array
     static int[] bubbleSort(int[] arr) {
         int n = arr.length;
