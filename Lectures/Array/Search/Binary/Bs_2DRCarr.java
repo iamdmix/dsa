@@ -1,7 +1,8 @@
+//Applying BS on a matrix that is sorted row and column wise
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Bs_2Darr {
+public class Bs_2DRCarr {
     public static void main(String[] args) {
         // To create Scanner object to take input from user
         Scanner in = new Scanner(System.in);
