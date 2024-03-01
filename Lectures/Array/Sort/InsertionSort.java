@@ -1,5 +1,3 @@
-//Insertion Sort on an array
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -19,7 +17,10 @@ public class InsertionSort {
             arr[i] = in.nextInt();
         }
 
-        // To perform Bubble Sort
+        // To perform Insertion Sort
+        insertionSort(arr);
+
+        // Print the sorted array
         System.out.println("The array after sorting is: ");
         System.out.println(Arrays.toString(arr));
 
@@ -27,18 +28,17 @@ public class InsertionSort {
         in.close();
     }
 
-    //Method to perform Insertion Sort
-    static void insertionSort(int[]arr){
+    // Method to perform Insertion Sort
+    static void insertionSort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
             int key = arr[i];
             int j = i - 1;
-            while (j>=0 && arr[j]>key) {
-                arr[j+1] = arr[j];
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
                 j = j - 1;
             }
-            arr[j+1] = key;
+            arr[j + 1] = key;
         }
     }
-
 }

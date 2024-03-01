@@ -1,4 +1,3 @@
-//Bubble sort on an array
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -19,6 +18,9 @@ public class BubbleSort {
         }
 
         // To perform Bubble Sort
+        bubbleSort(arr);
+
+        // Print the sorted array
         System.out.println("The array after sorting is: ");
         System.out.println(Arrays.toString(arr));
 
