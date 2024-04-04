@@ -1,4 +1,3 @@
-//To find the square root of a perfect square without using built in functions etc.
 import java.util.Scanner;
 
 public class Squareroot {
@@ -22,6 +21,11 @@ public class Squareroot {
 
     // Function to find the square root
     public static int sqroot(int n) {
+        if (n <= 0) {
+            return 0;
+        } else if (n <= 4) {
+            return n == 4 ? 2 : 1; // Square root of 4 is 2, square root of 1, 2, 3 is 1
+        }
         // Create an array until only half of n as n/2 > sqrt(n) always
         int[] arr = new int[n / 2];
         for (int i = 0; i < arr.length; i++) {
