@@ -1,4 +1,4 @@
-//To find the Ceiling of a target in the given array
+//To find the Ceiling of a target in the given array (dummy commit)
 import java.util.Scanner;
 
 public class Ceiling {
