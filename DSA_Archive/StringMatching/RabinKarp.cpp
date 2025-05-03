@@ -85,8 +85,8 @@ int main() {
     vector<int> matches1, spurious1, matches2, spurious2;
 
     // Run Rabin-Karp for both text-pattern pairs
-    rabinKarp(T1, P1, matches1, spurious1);
-    rabinKarp(T2, P2, matches2, spurious2);
+    RabinKarp(T1, P1, matches1, spurious1);
+    RabinKarp(T2, P2, matches2, spurious2);
 
     // Find common exact matches
     vector<int> commonMatches = findIntersection(matches1, matches2);
